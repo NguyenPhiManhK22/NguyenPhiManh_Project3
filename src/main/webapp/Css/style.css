@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.top-header {
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* TÌM KIẾM */
+.search-bar {
+    flex: 1;
+    display: flex;
+    max-width: 500px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button i {
+    color: #000;
+}
+
+/* ICON PHẢI */
+.header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.header-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.header-icons a:hover {
+    text-decoration: underline;
+}
+
+.main-nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-top: 1px solid #ddd;
+    padding: 0 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* khoảng cách giữa các mục */
+}
+
+.main-nav li {
+    position: relative;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    padding: 15px 10px;
+    display: inline-block;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+.main-nav .new {
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 15vh;
+    text-align: center; 
+}
+
+.container h1 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    font-size: 16px; 
+    color: #555; 
+    margin-bottom: 20px;
+}
