@@ -78,7 +78,7 @@
 </div>
 
 <footer>
-   <p> &copy; 2025 Website Bán Sản Phẩm Công Nghệ. All rights reserved.</p>
+   <p> &copy; 2025 Website Bán Cây Cảnh. All rights reserved.</p>
 </footer>
 
 </body>

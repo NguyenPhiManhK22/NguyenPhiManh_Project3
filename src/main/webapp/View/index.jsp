@@ -61,7 +61,7 @@
 	
 	
 <footer>
-   <p> &copy; 2025 Website Bán cây cảnh . All rights reserved.</p>
+   <p> &copy; 2025 Website Bán Cây Cảnh . All rights reserved.</p>
 </footer>
 
 </body>
